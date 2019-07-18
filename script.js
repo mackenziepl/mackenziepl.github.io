@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'http://safe-brushlands-95535.herokuapp.com/api/task/';
-  const trelloApiRoot = 'http://safe-brushlands-95535.herokuapp.com/api/trello/';
+  const apiRoot = 'https://safe-brushlands-95535.herokuapp.com/api/task/';
+  const trelloApiRoot = 'https://safe-brushlands-95535.herokuapp.com/api/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
